@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Website Data Info -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/6a01cfb0d2.js" crossorigin="anonymous"></script>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- Website Title -->
+    <title>CSS Cheatsheet</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="page-title"><i class="css-icon fa-brands fa-css3-alt"></i> CSS CHEATSHEET</h1>
+    </header>
+
+    <main>
+      <div id="id-Overview" class="card">
+        <header class="card-header maroon">
+          <h2 class="card-title"><i class="fa-solid fa-school"></i> CSS Overview</h2>
+        </header>
+        <section class="card-body">
+          <ul>
+            <li>
+              CSS stands for Cascading Style Sheets
+            </li>
+            <li>
+              Used for styling HTML structure
+              ex. decorating, positioning, controlling
+              layout of elements
+            </li>
+            <li>
+              Preferred to be scripted in external
+              files.
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div id="id-Syntax" class="card">
+        <header class="card-header green">
+          <h2 class="card-title"><i class="fa-solid fa-code"></i> Basic Syntax</h2>
+        </header>
+        <section class="card-body">
+          <p class="code">
+            Selector {Property:Value;}
+          </p>
+          <p class="explanation">Example:</p>
+          <p class="code">
+            h1 {color:red;}
+          </p>
+        </section>
+      </div>
+
+      <div id="id-Typography" class="card">
+        <header class="card-header blue">
+          <h2 class="card-title"><i class="fa-solid fa-signature"></i> Typography</h2>
+        </header>
+        <section class="card-body">
+          <p class="explanation"">Attributes</p>
+          <ul>
+            <li><span class="code">font-family :</span> typeface of an element</li>
+            <li><span class="code">font-size :</span> size of text displayed</li>
+            <li><span class="code">font-weight :</span> thin/thick of text</li>
+            <li><span class="code">text-align :</span> alignment of text</li>
+          </ul>
+        </section>
+      </div>
+
+      <div id="id-Colors" class="card">
+        <header class="card-header orange">
+          <h2 class="card-title"><i class="fa-solid fa-palette"></i> Color</h2>
+        </header>
+        <section class="card-body">
+          <p class="explanation"">Attributes</p>
+          <ul>
+            <li><span class="code">background-color</span>: control color behind the text</li>
+            <li><span class="code">color</span>: color of the text</li>
+            <li><span class="code">opacity</span>: make element transparent</li>
+            <li><span class="code">background-image</span>: set an image into background</li>
+          </ul>
+          <p class="explanation">Color Representation</p>
+          <ul>
+            <li>Color Name</li>
+            <li>RGB</li>
+            <li>HSL</li>
+            <li>Hexadecimal</li>
+          </ul>
+        </section>
+      </div>
+
+      <div id="id-Boxmodel" class="card">
+        <header class="card-header maroon">
+          <h2 class="card-title"><i class="fa-solid fa-box"></i> Box Model</h2>
+        </header>
+        <section class="card-body">
+          <p class="explanation">Attributes</p>
+          <ul>
+            <li><span class="code"> margin :</span> controls distance between element and outer elements</li>
+            <li><span class="code"> padding :</span> controls distance between element and inside elements</li>
+            <li><span class="code"> border :</span> The skin of the element</li>
+            <li><span class="code"> fixed :</span> element outside HTML Flow, and fixed toone position</li>
+            <li><span class="code"> height :</span> the height of the content</li>
+            <li><span class="code"> width :</span> the width of the content</li>
+            <li><span class="code"> overflow :</span> decide how content will be displayed if it overflow from its container</li>
+          </ul>
+        </section>
+      </div>
+
+      <div id="id-DispPost" class="card">
+        <header class="card-header green">
+          <h2 class="card-title"><i class="fa-solid fa-crosshairs"></i> Display & Positioning</h2>
+        </header>
+        <section class="card-body-grid">
+          <div class="sub-card">
+            <p class="card-subtitle">Positioning</p>
+            <p class="explanation"">Attributes</p>
+            <ul>
+              <li><span class="code"> static :</span> default, element in the HTML Flow</li>
+              <li><span class="code"> relative :</span> element outside HTML Flow, but content
+                height hold its previous position
+              </li>
+              <li><span class="code"> absolute :</span> element outside HTML Flow</li>
+              <li><span class="code"> fixed :</span> element outside HTML Flow, and fixed to
+                one position
+              </li>
+              <li><span class="code"> sticky :</span> element outside HTML Flow after
+                reaches its position
+              </li>
+            </ul>
+          </div>
+          <div class="sub-card">
+            <p class="card-subtitle">Display</p>
+            <p class="explanation"">Attributes</p>
+            <ul>
+              <li><span class="code"> block :</span> element takes up entire block</li>
+              <li><span class="code"> inline :</span> element only takes up needed space</li>
+              <li><span class="code"> inline-block :</span> combination of inline and block</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+/* Website Content Container */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin:0 auto;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.code {
+  font-family: monospace;
+}
+
+.explanation {
+  font-weight: bold;
+  margin:5px 0;
+}
+
+/* Page Header */
+
+.page-title {
+  font-size: 3.5rem;
+  font-weight:700;
+  text-align: center;
+  margin:5px 0;
+}
+
+/* Page Body */
+main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3,25%);
+  grid-template-rows: 25% 40% 33%;
+  grid-gap: 0.5rem;
+  padding: 0 5%;
+}
+
+#id-Boxmodel {
+  grid-column: 2/-1;
+}
+
+#id-DispPost {
+  grid-column: 1/-1;
+}
+
+/* Card Classes */
+.card {
+  border:3px solid midnightblue;
+  border-radius:5px;
+  padding:10px 1px 10px 10px;
+}
+
+.card-header {
+  box-shadow: -2px 2px 2px 0;
+}
+
+.card-body-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:0 20px;
+}
+
+.card-title, .card-subtitle {
+  font-weight: 500;
+  margin:10px 0;
+}
+
+.card-subtitle {
+  font-size:18px;
+  color:grey;
+}
+
+/* Header Background Classes */
+.green {
+  background-color: greenyellow;
+}
+
+.maroon {
+  background-color: hotpink;
+}
+
+.blue {
+  background-color: deepskyblue;
+}
+
+.orange {
+  background-color: darksalmon;
+}
+
+/* FontAwesome Icons */
+.css-icon {
+  color:blue;
+}
+
+i {
+  margin-left:5px;
+}
